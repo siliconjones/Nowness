@@ -1,0 +1,130 @@
+.toggle {
+  position: fixed;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  left: 3%;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  z-index: 2;
+  color: white;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.toggle:hover { color: #c9a16e; }
+
+#sidebar {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  position: fixed;
+  top: -700px;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  background-color: #f4f4f4;
+  color: #ffffff;
+  z-index: 2;
+  margin-left:-10px;
+  opacity: 0;
+}
+
+.social-table{
+  margin-left: -30px;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.social-nav{
+  box-sizing: border-box;
+  display: inline-block;
+  color:black;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  margin: 0px -4px -4px 0px;
+  padding: 15px 22px 15px 22px;
+}
+
+.social-nav a:link{
+color:#000000;
+}
+
+.social-nav a:hover{
+color:#c9a16e;
+}
+
+.m-nav ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.m-nav ul li {
+  cursor: pointer;
+/*  -webkit-transition: all 0.125s ease-in;
+  -moz-transition: all 0.125s ease-in;
+  transition: all 0.125s ease-in;*/
+  font-family: 'Lato';
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: .05em;
+/*  color: #000 !important;*/
+  background-color: #f4f4f4;
+  height: 51px;
+  margin: 0 0 0 -30px;
+  padding-left: 30px;
+  padding-top: 16px;
+}
+
+#sidebar li:link {
+  color: #777;
+}
+
+#sidebar li:hover {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  opacity: 1;
+  color: #c9a16e !important;
+  background-color: #ffffff;
+  border-left-style: solid;
+  border-color: #c9a16e;
+  border-width: 4px;
+  padding-left: 26px !important; 
+}
+
+#sidebar li a:link{
+  color: #000;
+}
+
+#sidebar li a:hover{
+  color: #c9a16e;
+}
+
+
+#sidebar li:visited{
+  color: inherit;
+}
+
+#sidebar img {
+  margin: 4em 0 1em 0;
+}
+
+/*#sidebar li a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+#sidebar li a:hover {
+  color: #c9a16e;
+}*/
+
+/*toggle button*/
+
+#sidebartoggler { display: none; }
+
+#sidebartoggler:checked ~ #sidebar { top: 50px; opacity: 100; }

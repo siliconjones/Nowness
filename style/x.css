@@ -1,0 +1,102 @@
+.trigger{
+  height: 51px;
+  width: 51px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.top{
+  display: block;
+  height: 2px;
+  width: 20px;
+  background-color: #444;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  position: absolute;
+  top: 18px;
+  left: 15px;
+}
+
+.middle{
+  display: block;
+  height: 2px;
+  width:20px;
+  background-color:#444;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+
+.bottom{
+  display: block;
+  height: 2px;
+  width: 20px;
+  background-color: #444;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  position: absolute;
+  top: 32px;
+  left: 15px;
+}
+
+.trigger:hover{
+  border-bottom-style: solid;
+  border-bottom-color: #c9a16e;
+  border-bottom-width: 3px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.trigger:hover > .top {
+  background-color: #c9a16e;
+}
+
+.trigger:hover > .middle {
+  background-color: #c9a16e;
+}
+
+.trigger:hover > .bottom {
+  background-color: #c9a16e;
+}
+
+.line-on{
+  border-color: #ddd;
+}
+
+.top-x{
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  top: 25px;
+  left: 15px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  background-color: #c9a16e;
+}
+
+.middle-x{
+  -webkit-transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  opacity:0;
+  background-color: #c9a16e;
+}
+
+/*  .line-2-1-x{
+    -webkit-transform: rotate(-45deg);
+    transition: all 0.4s;
+    top: 29px;
+}*/
+.bottom-x{
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  top: 25px;
+  left: 15px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  background-color: #c9a16e;
+}

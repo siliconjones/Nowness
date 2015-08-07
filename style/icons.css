@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "icons";
+    src: url("../fonts/icons.woff") format('woff');
+}
+
+.icon {
+	display: inline;
+	height: auto;
+	width: auto;
+}
+
+
+.play-icon{
+	margin-top: 10px;
+}
+
+.play-icon:hover{
+	color: #c9a16e;
+}
+
+.arrow{
+	font-family: icons;
+	font-size:15px;
+	color:black;
+}
+
+/*.arrow:hover{
+	color:#c9a16e;
+}*/
+
+.icons{
+	font-family: icons;
+	font-size:54px;
+}
+
+a .icons:link{
+color: #ffffff;
+}
+
+a .icons:visited{
+color: #ffffff;
+}
+
+a .icons:hover{
+color: #c9a16e;
+}
