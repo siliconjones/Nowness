@@ -1,5 +1,5 @@
 $(function()
-{
+{jones102
     // Hide search wrap by default;
     $(".off-canvas").hide();
 
