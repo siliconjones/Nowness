@@ -1,14 +1,13 @@
 #underfeature{
 	position: relative;
 	width:100vw;
-	margin:0px auto 0px auto;
+	text-align: center;
+	margin:20px auto 0px auto;
 	max-width: 1400px;
 	display: block;
 	overflow: hidden;
-  	border-bottom-style: solid;
-	border-bottom-color: #c9a16e;
-	border-bottom-width: 1px;
-	padding-bottom: 45px;
+/*	overflow-x: scroll;
+    overflow-y: hidden;*/
 }
 
 .scroll-nav{
@@ -19,43 +18,30 @@
 	top: 40%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
+	-moz-transform: translateY(-100%);
 	z-index: 4;
 	overflow: auto;
 	margin: 0px;
 	padding: 0px;
-	pointer-events:none;
-/*	border-left-style: solid;
+	border-left-style: solid;
 	border-left-width: 1px;
 	border-left-color: #d7d7d7;
 	border-right-style: solid;
 	border-right-width: 1px;
-	border-right-color: #d7d7d7;*/
+	border-right-color: #;
 }
 
-.flexslider{
-  padding:0px;
-  width:1400px;
-  height:auto;
-  margin-left:0px;
-  z-index:2;
-}
-
-.boxee{
+#under-feature-cont{
 	position: relative;
-	height: 140px;
-}
-
-.flexslider ul{
-  list-type:none;
-}
-
-.flexslider ul li{
-  margin-right:16px;
-}
-
-.flexslider ul:first-child{
-  margin-left:-40px;
+	width:2832px;
+	z-index: 2;
+	height: 251px;
+	border-bottom-style: solid;
+	border-bottom-color: #c9a16e;
+	border-bottom-width: 1px;
+	-webkit-transition: all .5s ease-in-out;
+  	-moz-transition: all .5s ease-in-out;
+  	transition: all .5s ease-in-out;
 }
 
 .scroll-arrow{
@@ -63,15 +49,14 @@
 	top: 50%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
+	-moz-transform: translateY(-100%);
 	display: inline-block;
 	text-align: center;
 	z-index: 4;
 	height: 40px;
 	width: 40px;
 	background-color: white;
-	padding: 9px;
-	pointer-events: auto;
+	padding: 4px;
 }
 
 .scroll-arrow:hover{
@@ -84,10 +69,11 @@
 
 .under-feature-item{
 	display: inline-block;
-	text-align: center;
-	color:#000;
-	width:220px;
-	height:210px;
+	width: 220px;
+	height: 140px;
+	height: auto;
+	float: left;
+	margin-right: 16px;
 }
 
 .under-feature-item img{
@@ -106,9 +92,11 @@
 	font-weight: 400;
 }
 
-.flex-disabled > .scroll-arrow {
-	display: none;
-	-webkit-transition: all 0.5s ease-in-out;
-  	-moz-transition: all 0.5s ease-in-out;
-  	transition: all 0.5s ease-in-out;
+.pad{
+	position: relative;
+	display: inline-block;
+	margin-right: -4px;
+	margin-left: -4px;
+	width: 20px;
+	height: 20px;
 }

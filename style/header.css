@@ -1,6 +1,5 @@
 .constant-nav {
-	box-sizing:border-box;
-	position: relative;
+	position: fixed;
 	z-index: 8;
 	display: block;
 	width: 100vw;
@@ -10,6 +9,7 @@
 	border-width: 1px;
 	border-color: #ddd;
 	border-bottom-style: solid;
+	overflow: hidden;
 }
 
 .main-title{
@@ -59,9 +59,11 @@
 
 .sneaky-nav {
 	display: inline-block;
-	position: relative;
+	position: absolute;
+	top:50px;
 	width: 100vw;
 	height: 51px;
+	z-index: 2;
 	text-align: center;
 	border-width: 1px;
 	border-color: #ddd;
@@ -89,13 +91,4 @@
 
 .sneaky-nav li a:hover{
 	color: #c9a16e;
-}
-
-a:link {
-	color: #777;
-	text-decoration: none;
-}
-
-a:visited {
-color: #777;
 }

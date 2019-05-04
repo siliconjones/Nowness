@@ -9,7 +9,7 @@
 
 .feature-bg{
 	position: relative;
-	background-image: url(../img/manhattan.jpg);
+	background-image: url(../img/songhoy-blues.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -23,7 +23,7 @@
 	top: 50%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-100%);
+	-moz-transform: translateY(-50%);
 	float: left;
 	width:40%;
 	margin-left:5%;
@@ -44,4 +44,8 @@
 
 .content a i:hover{
 	color: #c9a16e;
+}
+
+.playbutton{
+	margin-top: 50px;
 }

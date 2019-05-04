@@ -1,5 +1,5 @@
 .toggle {
-  position: fixed;
+  position: absolute;
   top: 0px;
   right: 0;
   bottom: 0;
@@ -7,7 +7,7 @@
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
-  z-index: 2;
+  z-index: 5;
   color: white;
   width: 30px;
   height: 30px;
@@ -24,10 +24,10 @@
   top: -700px;
   left: 0px;
   width: 250px;
-  height: 100%;
-  background-color: #f4f4f4;
+  height: 615px;
+  background-color: #f8f8f8;
   color: #ffffff;
-  z-index: 2;
+  z-index: 5;
   margin-left:-10px;
   opacity: 0;
 }
@@ -73,7 +73,7 @@ color:#c9a16e;
   font-size: 15px;
   letter-spacing: .05em;
 /*  color: #000 !important;*/
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
   height: 51px;
   margin: 0 0 0 -30px;
   padding-left: 30px;
